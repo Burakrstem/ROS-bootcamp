@@ -1,4 +1,4 @@
 <launch>
   <node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node" />
-  <node name="snake_turtle" pkg="turtlesim_sinwave" type="sinwave.py" />
+  <node name="snake_turtle" pkg="turtlesim_sinwave" type="sinwave.py" ns="sin_move"/>
 </launch>
